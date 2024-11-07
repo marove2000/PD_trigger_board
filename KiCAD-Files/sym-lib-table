@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "blinkyparts")(type "KiCad")(uri "${KIPRJMOD}/library/blinkyparts.kicad_sym")(options "")(descr ""))
+  (lib (name "HUSB238")(type "KiCad")(uri "${KIPRJMOD}/library/HUSB238.kicad_sym")(options "")(descr ""))
+)
