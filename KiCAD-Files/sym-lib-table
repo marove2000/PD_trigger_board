@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "blinkyparts")(type "KiCad")(uri "${KIPRJMOD}/library/blinkyparts.kicad_sym")(options "")(descr ""))
   (lib (name "HUSB238")(type "KiCad")(uri "${KIPRJMOD}/library/HUSB238.kicad_sym")(options "")(descr ""))
+  (lib (name "SI4459ADY")(type "KiCad")(uri "${KIPRJMOD}/library/SI4459ADY.kicad_sym")(options "")(descr ""))
 )
