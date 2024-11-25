@@ -4540,6 +4540,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 40.64 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A6"
 			(uuid "cdfa1c64-8bf4-40f4-b377-c7fb50d0326b")
 		)
