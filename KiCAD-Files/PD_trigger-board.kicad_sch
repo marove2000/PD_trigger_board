@@ -3792,6 +3792,15 @@
 				(hide yes)
 			)
 		)
+		(property "FCSC" "C25531"
+			(at 242.57 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "72bb88a6-bf74-41fe-8dea-2ad700eeb34f")
 		)
@@ -3892,7 +3901,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4.7uF 35V"
 			(at 257.81 40.6399 0)
 			(effects
 				(font
@@ -3920,6 +3929,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 254 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FCSC" "C307467"
 			(at 254 39.37 0)
 			(effects
 				(font
@@ -3998,6 +4016,15 @@
 				(hide yes)
 			)
 		)
+		(property "FCSC" "C25941"
+			(at 226.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0b3d47c8-da4d-4971-8187-97f6220240c7")
 		)
@@ -4060,6 +4087,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 214.63 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FCSC" "C100457"
 			(at 214.63 41.91 0)
 			(effects
 				(font
@@ -4436,7 +4472,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4.7uF 35V"
 			(at 247.65 40.6399 0)
 			(effects
 				(font
@@ -4464,6 +4500,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 243.84 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FCSC" "C307467"
 			(at 243.84 39.37 0)
 			(effects
 				(font
@@ -4505,7 +4550,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0_14P"
+		(property "Value" "USB_C_Receptacle_USB3.0_12P"
 			(at 40.64 64.77 0)
 			(effects
 				(font
@@ -4531,16 +4576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
-			(at 40.64 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
+		(property "Description" "USB 3.0-only 12P Type-C Receptacle connector"
 			(at 40.64 85.09 0)
 			(effects
 				(font
@@ -4923,8 +4959,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "P-Channel MOSFET"
 			(at 226.06 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FCSC" "C143743"
+			(at 226.06 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5426,6 +5471,15 @@
 				(hide yes)
 			)
 		)
+		(property "FCSC" "C7471904"
+			(at 170.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "c3263968-f7c3-4060-ac17-329470b2291a")
 		)
@@ -5487,7 +5541,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4.7uF 35V"
 			(at 267.97 40.6399 0)
 			(effects
 				(font
@@ -5515,6 +5569,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 264.16 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FCSC" "C307467"
 			(at 264.16 39.37 0)
 			(effects
 				(font
@@ -5650,6 +5713,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 242.57 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FCSC" "C25542"
+			(at 242.57 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5867,6 +5939,15 @@
 				(hide yes)
 			)
 		)
+		(property "FCSC" "C15849"
+			(at 130.81 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d5f449f8-d332-4756-9632-5ecb98a8f977")
 		)
@@ -5928,6 +6009,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 242.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FCSC" "C54831"
+			(at 242.57 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5997,6 +6087,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 130.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FCSC" "C25139"
 			(at 130.81 64.77 0)
 			(effects
 				(font
@@ -6104,7 +6203,7 @@
 				)
 			)
 		)
-		(property "Value" "6k"
+		(property "Value" "6.04k"
 			(at 242.57 83.82 90)
 			(effects
 				(font
@@ -6132,6 +6231,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 242.57 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FCSC" "C25913"
+			(at 242.57 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6336,6 +6444,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 156.21 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FCSC" "C54831"
+			(at 156.21 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)

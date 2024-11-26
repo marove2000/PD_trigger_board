@@ -558,9 +558,9 @@
         },
         {
           "group_by": false,
-          "label": "LCSC",
-          "name": "LCSC",
-          "show": false
+          "label": "FCSC",
+          "name": "FCSC",
+          "show": true
         }
       ],
       "filter_string": "",
