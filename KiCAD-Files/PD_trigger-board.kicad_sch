@@ -4258,7 +4258,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "170c8d42-6814-4075-88f8-c6f2836d3c0d")
 		(property "Reference" "J7"
@@ -4585,6 +4585,15 @@
 				(hide yes)
 			)
 		)
+		(property "FCSC" "C136423"
+			(at 40.64 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A6"
 			(uuid "cdfa1c64-8bf4-40f4-b377-c7fb50d0326b")
 		)
@@ -4712,7 +4721,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5736346b-d563-4087-a64f-70681d4ec8f8")
 		(property "Reference" "J3"
@@ -4849,7 +4858,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5f88289b-33db-4727-9913-4fa8138843a4")
 		(property "Reference" "J2"
@@ -5149,7 +5158,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7b762990-b344-4f0b-942a-840e6de96284")
 		(property "Reference" "J8"
@@ -5285,7 +5294,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "81ef8580-40f2-4af4-9cd1-2a770d36ab8a")
 		(property "Reference" "J11"
@@ -5355,7 +5364,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8d36765d-36fe-43f5-bf74-0f60a9965af4")
 		(property "Reference" "J5"
@@ -5751,7 +5760,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a4845db3-e4cd-4b2d-88f3-7485297fb11e")
 		(property "Reference" "J9"
@@ -5821,7 +5830,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a9ab0359-bbea-4e32-8630-104a434c7731")
 		(property "Reference" "J6"
@@ -6335,7 +6344,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d8b1e10b-c74a-4aed-be19-45fc6beea502")
 		(property "Reference" "J10"
@@ -6482,7 +6491,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f56c4958-5052-40c3-beac-8000a039026a")
 		(property "Reference" "J4"
