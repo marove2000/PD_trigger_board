@@ -10,10 +10,12 @@
 - If possible: Writing to top
 - Size like C3-Mini
 - If needed: Remove 18V
+- One pin with 5V 300mA output (step down)
 
 ## ToDo for future release
 - Footprint for SMD attachment
 - Stackable Design
+- PD 3.1? https://www.lcsc.com/product-detail/USB-PD_Hynetek-HUSB238A-BB001-QN16R_C24833806.html
  
 
 ## other boards
