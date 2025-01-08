@@ -11,6 +11,9 @@
 - Size like C3-Mini
 - If needed: Remove 18V
 - One pin with 5V 300mA output (step down)
+- Kompatiblität mit: https://wiki.seeedstudio.com/Seeeduino-XIAO/ (Adapterplatine)
+- Kompatiblität mit: https://cdn.mikroe.com/cms/click-boards/click-board-standard-guidelines-april-2019.pdf (Über Adapterplatine)
+- FSCS zu LCSC ändern
 
 ## ToDo for future release
 - Footprint for SMD attachment
