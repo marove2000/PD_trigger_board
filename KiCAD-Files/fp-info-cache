@@ -1,4 +1,4 @@
-24246880066695083
+24252082838509244
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -97922,3 +97922,24 @@ SI4459ADY-T1-GE3
 0
 8
 8
+blinkyparts
+ce-icon_3mm
+Converted using: svg2mod -i ce-icon.svg --name ce-symbol_mask_3mm --precision 1
+svg2mod
+0
+0
+0
+blinkyparts
+rohs-icon_3mm
+Converted using: svg2mod -i rohs-icon.svg --name rohs-symbol_mask_3mm --precision 1
+svg2mod
+0
+0
+0
+blinkyparts
+weee-icon_3mm
+Converted using: svg2mod -i weee-icon.svg --name weee-symbol_mask_3mm --precision 1
+svg2mod
+0
+0
+0
