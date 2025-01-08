@@ -152,7 +152,7 @@
 			(uuid "527de13b-9299-498f-9c3e-baff4ef6446f")
 			(effects
 				(font
-					(size 0.75 0.75)
+					(size 0.5 0.5)
 					(thickness 0.1)
 				)
 			)
@@ -374,13 +374,13 @@
 		(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A, https://gct.co/files/drawings/usb4110.pdf")
 		(tags "USB 2.0 C Type-C Receptacle SMD 16P 16C USB4110-GF-A")
 		(property "Reference" "J1"
-			(at 0 -0.078 180)
+			(at 0 -0.078 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "d25cc6a4-9729-4284-b9c2-d1640b4c8a24")
 			(effects
 				(font
-					(size 0.75 0.75)
+					(size 0.5 0.5)
 					(thickness 0.1)
 				)
 			)
@@ -1000,7 +1000,7 @@
 			(uuid "0617d58d-0df1-4a4b-bdcb-0976058f6bc6")
 			(effects
 				(font
-					(size 0.75 0.75)
+					(size 0.5 0.5)
 					(thickness 0.1)
 				)
 			)
@@ -1226,7 +1226,7 @@
 			(uuid "f279f117-8ffa-426d-a818-4f855af68df2")
 			(effects
 				(font
-					(size 0.75 0.75)
+					(size 0.5 0.5)
 					(thickness 0.1)
 				)
 			)
@@ -1453,7 +1453,7 @@
 			(uuid "b0f8b53b-f607-41ee-9fee-5cdfa72f7c16")
 			(effects
 				(font
-					(size 0.75 0.75)
+					(size 0.5 0.5)
 					(thickness 0.1)
 				)
 			)
@@ -1680,7 +1680,7 @@
 			(uuid "61642780-04b0-44e5-a9b0-9479ce0abaad")
 			(effects
 				(font
-					(size 0.75 0.75)
+					(size 0.5 0.5)
 					(thickness 0.1)
 				)
 			)
@@ -1907,7 +1907,7 @@
 			(uuid "8ab92c6e-d013-4624-8264-24cef2df8f8e")
 			(effects
 				(font
-					(size 0.75 0.75)
+					(size 0.5 0.5)
 					(thickness 0.1)
 				)
 			)
@@ -2490,11 +2490,10 @@
 			(layer "F.Fab")
 			(uuid "b29c4f93-b6d8-4240-9eb0-bce0b23921a2")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "4a833fc1-9bab-4eb7-b033-aefbada93f0b")
+		(fp_text user "*"
+			(at -2.3176 -2.9316 0)
+			(layer "F.SilkS")
+			(uuid "4f51b80a-a3ed-49ca-bf32-6ff0ee605eed")
 			(effects
 				(font
 					(size 1 1)
@@ -2502,10 +2501,11 @@
 				)
 			)
 		)
-		(fp_text user "*"
-			(at -1.6129 -2.4257 0)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "4f51b80a-a3ed-49ca-bf32-6ff0ee605eed")
+			(uuid "4a833fc1-9bab-4eb7-b033-aefbada93f0b")
 			(effects
 				(font
 					(size 1 1)
@@ -2605,11 +2605,11 @@
 		(property "Reference" "U3"
 			(at -3.181 0.003 0)
 			(unlocked yes)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "dfe58bb9-8abb-4529-8d89-89c493574365")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.1)
 				)
 			)
@@ -3360,12 +3360,12 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 2.8 0 90)
-			(layer "F.SilkS")
+			(at 2.8316 0 90)
+			(layer "F.Fab")
 			(uuid "5f0585e8-31c6-4670-a204-b43ee86a4f04")
 			(effects
 				(font
-					(size 0.75 0.75)
+					(size 0.5 0.5)
 					(thickness 0.1)
 				)
 			)
@@ -3592,7 +3592,7 @@
 			(uuid "94501ea6-abeb-4e07-942e-834d0611b071")
 			(effects
 				(font
-					(size 0.75 0.75)
+					(size 0.5 0.5)
 					(thickness 0.1)
 				)
 			)
@@ -3819,7 +3819,7 @@
 			(uuid "645857d1-5993-497f-83ed-8274dabef84c")
 			(effects
 				(font
-					(size 0.75 0.75)
+					(size 0.5 0.5)
 					(thickness 0.1)
 				)
 			)
@@ -4172,7 +4172,7 @@
 			(uuid "dc21472b-54a7-45f0-91d8-6d2d168fed28")
 			(effects
 				(font
-					(size 0.75 0.75)
+					(size 0.5 0.5)
 					(thickness 0.1)
 				)
 			)
@@ -4395,11 +4395,11 @@
 		(tags "capacitor")
 		(property "Reference" "C4"
 			(at 2.7 0 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "9dd5e844-20f5-4b9d-8ac9-33d6dbb6e372")
 			(effects
 				(font
-					(size 0.75 0.75)
+					(size 0.5 0.5)
 					(thickness 0.1)
 				)
 			)
@@ -4622,11 +4622,11 @@
 		(tags "capacitor")
 		(property "Reference" "C3"
 			(at 2.8 0 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "9cba433a-6b33-470c-864f-ac671c89b6e6")
 			(effects
 				(font
-					(size 0.75 0.75)
+					(size 0.5 0.5)
 					(thickness 0.1)
 				)
 			)
@@ -4853,7 +4853,7 @@
 			(uuid "e2cd211f-17eb-47cd-9a40-78564e9d6a9c")
 			(effects
 				(font
-					(size 0.75 0.75)
+					(size 0.5 0.5)
 					(thickness 0.1)
 				)
 			)
@@ -5080,7 +5080,7 @@
 			(uuid "ccbf4de4-3aa3-4f7e-8cd5-2cf60e0590d9")
 			(effects
 				(font
-					(size 0.75 0.75)
+					(size 0.5 0.5)
 					(thickness 0.1)
 				)
 			)
@@ -5474,14 +5474,27 @@
 		(layer "F.SilkS")
 		(uuid "f437dc89-1807-4346-b8a2-7d67cd08ef3f")
 	)
-	(gr_text "PD-Trigger-Board v0.2\nPD V2.0"
-		(at 146.8 91.8 0)
+	(gr_text "PD-Trigger-Board\nPD 3.0"
+		(at 146.038 91.6984 0)
 		(layer "B.SilkS")
 		(uuid "a3e74f66-1995-4a6e-98cc-4a1e5d0a6383")
 		(effects
 			(font
 				(size 0.75 0.75)
 				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "v0.2"
+		(at 135.8646 89.281 0)
+		(layer "B.SilkS")
+		(uuid "c5c662be-6094-4627-a770-5cf48ca1a967")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
 			)
 			(justify left bottom mirror)
 		)
@@ -5500,72 +5513,72 @@
 		)
 	)
 	(gr_text "20V"
-		(at 133.1 95.7 -90)
+		(at 133.3246 96.012 270)
 		(layer "F.SilkS")
 		(uuid "004f975c-54ee-4693-9150-4bb31e166542")
 		(effects
 			(font
-				(size 0.75 0.75)
+				(size 0.5 0.5)
 				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
 	)
 	(gr_text "9V"
-		(at 132.6 80.7 -90)
+		(at 132.9182 80.9498 270)
 		(layer "F.SilkS")
 		(uuid "0e8aecda-209f-4b9d-83f4-7fd239f443c3")
 		(effects
 			(font
-				(size 0.75 0.75)
+				(size 0.5 0.5)
 				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
 	)
 	(gr_text "5V"
-		(at 132.6 78.2 -90)
+		(at 132.9182 78.4352 270)
 		(layer "F.SilkS")
 		(uuid "231cbba7-e4f0-4553-9c63-42dd29902be4")
 		(effects
 			(font
-				(size 0.75 0.75)
+				(size 0.5 0.5)
 				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
 	)
 	(gr_text "15V"
-		(at 133.1 88.1 -90)
+		(at 133.2484 88.3666 270)
 		(layer "F.SilkS")
 		(uuid "71499e12-ca08-4ed4-9ad0-b8e04c8daffa")
 		(effects
 			(font
-				(size 0.75 0.75)
+				(size 0.5 0.5)
 				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
 	)
 	(gr_text "12V"
-		(at 133.1 85.5 -90)
+		(at 133.2484 85.8012 270)
 		(layer "F.SilkS")
 		(uuid "9a80df23-f907-4d56-b82d-746e2a95063b")
 		(effects
 			(font
-				(size 0.75 0.75)
+				(size 0.5 0.5)
 				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
 	)
 	(gr_text "18V"
-		(at 133.1 93.2 -90)
+		(at 133.2992 93.4974 270)
 		(layer "F.SilkS")
 		(uuid "caf37095-6366-448b-8ee5-16c55924fbf8")
 		(effects
 			(font
-				(size 0.75 0.75)
+				(size 0.5 0.5)
 				(thickness 0.1)
 			)
 			(justify left bottom)
