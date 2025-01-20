@@ -10,7 +10,7 @@ KiCAD_Files/PD_trigger-board-backups/
 *-backups
 *.kicad_prl
 *.sch-bak
-*~
+*~*
 _autosave-*
 *.tmp
 *-save.pro
