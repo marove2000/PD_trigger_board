@@ -7378,6 +7378,30 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "SCL"
+		(at 146.8374 86.9696 0)
+		(layer "F.SilkS")
+		(uuid "0eb698ff-7538-43e4-bef2-eada00e5e88c")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SDA"
+		(at 146.7866 89.5096 0)
+		(layer "F.SilkS")
+		(uuid "1dafc979-214b-4f87-b680-c457d887ad24")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "5V"
 		(at 133.4 79.353965 90)
 		(layer "F.SilkS")
@@ -7385,6 +7409,30 @@
 		(effects
 			(font
 				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "VCC"
+		(at 146.7866 97.1042 0)
+		(layer "F.SilkS")
+		(uuid "295584ee-90dd-4894-aea1-1f13c919def7")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 146.3294 99.5934 0)
+		(layer "F.SilkS")
+		(uuid "5c58f2ff-2530-4e4a-b313-7ecca305153e")
+		(effects
+			(font
+				(size 0.75 0.75)
 				(thickness 0.1)
 			)
 			(justify left bottom)
@@ -7402,6 +7450,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "GND"
+		(at 146.6596 84.4042 0)
+		(layer "F.SilkS")
+		(uuid "8d55e83a-af94-41fc-b717-5f7d1819c42c")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "12V"
 		(at 134 87.17647 90)
 		(layer "F.SilkS")
@@ -7414,6 +7474,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "D-"
+		(at 146.9644 81.8896 0)
+		(layer "F.SilkS")
+		(uuid "c30d0849-08d0-49e9-b4ec-4f5d902a633d")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "18V"
 		(at 134 94.998974 90)
 		(layer "F.SilkS")
@@ -7421,6 +7493,18 @@
 		(effects
 			(font
 				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "D+"
+		(at 146.9644 79.2988 0)
+		(layer "F.SilkS")
+		(uuid "fc60c478-5550-4981-a5cb-2a50232c732d")
+		(effects
+			(font
+				(size 0.75 0.75)
 				(thickness 0.1)
 			)
 			(justify left bottom)
