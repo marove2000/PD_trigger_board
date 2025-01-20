@@ -1,23 +1,24 @@
 # PD trigger board
 
 ## ToDo for v0.2
-- Stamp attachments
-- USBC smd-mounted with holes -> https://jlcpcb.com/partdetail/Dealon-USB_TYPE_C020/C2927040
-- Writing on board not visible
-- Version on board
-- Power-Output to right side
-- Delete current-table
-- If possible: Writing to top
-- Size like C3-Mini
-- If needed: Remove 18V
+- ~~Stamp attachments~~
+- ~~USBC smd-mounted with holes -> https://jlcpcb.com/partdetail/Dealon-USB_TYPE_C020/C2927040~~
+- ~~Writing on board not visible~~
+- ~~Version on board~~
+- ~~Power-Output to right side~~
+- ~~Delete current-table~~
+- ~~If possible: Writing to top~~
+- ~~Size like C3-Mini~~
+- ~~If needed: Remove 18V~~
 - One pin with 5V 300mA output (step down)
 - Kompatiblität mit: https://wiki.seeedstudio.com/Seeeduino-XIAO/ (Adapterplatine)
 - Kompatiblität mit: https://cdn.mikroe.com/cms/click-boards/click-board-standard-guidelines-april-2019.pdf (Über Adapterplatine)
 - FSCS zu LCSC ändern
+- ~~Bigger Thruholes~~ 
 
 ## ToDo for future release
 - Footprint for SMD attachment
-- Stackable Design
+- ~~Stackable Design~~
 - PD 3.1? https://www.lcsc.com/product-detail/USB-PD_Hynetek-HUSB238A-BB001-QN16R_C24833806.html
  
 
