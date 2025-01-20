@@ -13,7 +13,7 @@
 - One pin with 5V 300mA output (step down)
 - Kompatiblität mit: https://wiki.seeedstudio.com/Seeeduino-XIAO/ (Adapterplatine)
 - Kompatiblität mit: https://cdn.mikroe.com/cms/click-boards/click-board-standard-guidelines-april-2019.pdf (Über Adapterplatine)
-- FSCS zu LCSC ändern
+- ~~FSCS zu LCSC ändern~~
 - ~~Bigger Thruholes~~ 
 
 ## ToDo for future release
