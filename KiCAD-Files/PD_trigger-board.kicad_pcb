@@ -2282,7 +2282,7 @@
 			(at -3.181 0.003 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "36444ae5-67f2-47e5-be92-d8545e10b5c0")
+			(uuid "d277ffa2-9301-4ee7-925b-d2804ba6782a")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -2294,7 +2294,7 @@
 			(at -5.081 0.403 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "77f9ede4-2b3a-43ba-97e3-e396e1c6b220")
+			(uuid "08b0beb8-f8da-443a-b613-63209c9576a8")
 			(effects
 				(font
 					(size 1 1)
@@ -2307,7 +2307,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5ef6583b-44dd-456d-bc4a-c03ac81e1cc3")
+			(uuid "2f89e0f0-a8ed-4b1d-924b-a898cdbc3633")
 			(effects
 				(font
 					(size 1 1)
@@ -2320,7 +2320,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1cc007de-35e8-46e4-8270-2ba0c2c6771a")
+			(uuid "ec382f95-200c-40ae-88ab-9db8da126933")
 			(effects
 				(font
 					(size 1 1)
@@ -2333,7 +2333,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e195e99a-b67a-4f33-a93a-49c09d8f8808")
+			(uuid "176627da-0141-4905-b9a6-3a120221f81f")
 			(effects
 				(font
 					(size 1 1)
@@ -2354,7 +2354,7 @@
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "aa550592-6596-45d9-986d-a3fab5debaca")
+			(uuid "41b141b4-93da-4ad1-947f-55e451f2f8d2")
 		)
 		(fp_line
 			(start 17 -17.5)
@@ -2364,7 +2364,7 @@
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "b640ff2d-cd51-4c0b-a363-ff3495e09226")
+			(uuid "cace3d4e-d773-4c39-bb67-6f9cc1873fbb")
 		)
 		(fp_line
 			(start 17 6)
@@ -2374,7 +2374,7 @@
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "58056427-be88-401f-a700-fede814adb67")
+			(uuid "df80380a-4616-4c91-92a3-3d9e224d062d")
 		)
 		(fp_line
 			(start 18 -16.5)
@@ -2384,7 +2384,7 @@
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "da91b812-cd12-4175-9d37-2ce0b47f8742")
+			(uuid "0513eff8-567f-4f6e-8929-5e7f575af30c")
 		)
 		(fp_arc
 			(start 0 -16.5)
@@ -2395,7 +2395,7 @@
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "4a8343cf-0a3e-4cf1-a58a-dc4c780ef015")
+			(uuid "83b1e859-7a33-4bf3-b2f8-0b6eb90ec0bf")
 		)
 		(fp_arc
 			(start 1 6)
@@ -2406,7 +2406,7 @@
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "11aee8dd-b13b-483b-bb66-2e45d75259d7")
+			(uuid "0546f322-f6c2-43fe-91d0-4ef8951709c0")
 		)
 		(fp_arc
 			(start 17 -17.5)
@@ -2417,7 +2417,7 @@
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "7c6005f3-1d46-4dbf-92d1-b5eccfc3ee1d")
+			(uuid "5b770443-3d7c-4f23-9b6f-eb0d28e0425d")
 		)
 		(fp_arc
 			(start 18 5)
@@ -2428,13 +2428,13 @@
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "f5fee032-3db9-4422-b874-bdde0e457a4f")
+			(uuid "23456cf7-12dc-4399-b90f-d9581c23003d")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "677168f9-3fb6-4abb-9c84-fef423f5daac")
+			(uuid "3f51d32c-742c-42e0-ab0f-eaa525e5e962")
 			(effects
 				(font
 					(size 1 1)
@@ -2442,7 +2442,7 @@
 				)
 			)
 		)
-		(pad "1" thru_hole rect
+		(pad "1" thru_hole custom
 			(at 0 -16.002)
 			(size 2.76 1.524)
 			(drill 0.9)
@@ -2451,17 +2451,20 @@
 			(net 5 "VSET")
 			(pinfunction "SET_5V")
 			(pintype "output")
-			(uuid "e04b8b0d-0b24-43be-acac-9c0a7524ac1f")
-		)
-		(pad "1" smd trapezoid
-			(at 0.762 -15.113 180)
-			(size 0.5 0.5)
-			(rect_delta 0 0.5)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 5 "VSET")
-			(pinfunction "SET_5V")
-			(pintype "output")
-			(uuid "1341dd5c-1d86-47a8-a34c-c0c3fc3846d1")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.762 1.139) (xy 0.262 0.639) (xy 1.262 0.639)
+					)
+					(width 0.05)
+					(fill yes)
+				)
+			)
+			(uuid "15470450-13f2-4b57-92d2-cc19a7a601f5")
 		)
 		(pad "1" thru_hole circle
 			(at 1.38 -16.002)
@@ -2472,9 +2475,9 @@
 			(net 5 "VSET")
 			(pinfunction "SET_5V")
 			(pintype "output")
-			(uuid "b07d1aa1-c175-4109-b1ec-73032b53b6d5")
+			(uuid "6c028b37-504c-47ef-be41-4613bb451eec")
 		)
-		(pad "2" thru_hole rect
+		(pad "2" thru_hole custom
 			(at 0 -13.46)
 			(size 2.76 1.524)
 			(drill 0.9)
@@ -2483,27 +2486,34 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "bd91ff08-bd91-4765-9f2e-bc7766d7a33a")
-		)
-		(pad "2" smd trapezoid
-			(at 0.762 -14.349)
-			(size 0.5 0.5)
-			(rect_delta 0 0.5)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "power_in")
-			(uuid "0a733be6-10ff-4bfd-af3e-8cf46e10689d")
-		)
-		(pad "2" smd trapezoid
-			(at 0.762 -12.571 180)
-			(size 0.5 0.5)
-			(rect_delta 0 0.5)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "power_in")
-			(uuid "d89007d4-6c86-480d-9632-ac79f27db569")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.262 -0.639) (xy 0.762 -1.139) (xy 1.262 -0.639)
+					)
+					(width 0.05)
+					(fill yes)
+				)
+				(gr_poly
+					(pts
+						(xy 0.762 1.139) (xy 1.262 0.639) (xy 0.262 0.639)
+					)
+					(width 0.05)
+					(fill yes)
+				)
+				(gr_poly
+					(pts
+						(xy 0.762 -1.139) (xy 1.262 -0.639) (xy 0.262 -0.639)
+					)
+					(width 0.05)
+					(fill yes)
+				)
+			)
+			(uuid "5c741146-55d0-495a-8213-e43618ce11ef")
 		)
 		(pad "2" thru_hole circle
 			(at 1.38 -13.46)
@@ -2514,9 +2524,9 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "8a57c9be-65fc-41a8-ae6b-f8bee69cd956")
+			(uuid "72d034f0-9777-4b59-bde3-cfe88c61ff61")
 		)
-		(pad "3" thru_hole rect
+		(pad "3" thru_hole custom
 			(at 0 -10.922)
 			(size 2.76 1.524)
 			(drill 0.9)
@@ -2525,17 +2535,20 @@
 			(net 12 "Net-(U3-SET_9V)")
 			(pinfunction "SET_9V")
 			(pintype "output")
-			(uuid "8826f3e2-32f9-4472-a7ba-4ee8f850167f")
-		)
-		(pad "3" smd trapezoid
-			(at 0.762 -11.809)
-			(size 0.5 0.5)
-			(rect_delta 0 0.5)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 12 "Net-(U3-SET_9V)")
-			(pinfunction "SET_9V")
-			(pintype "output")
-			(uuid "1d753b5a-c577-4079-9420-ed7c91d2e0dd")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.762 -1.137) (xy 0.262 -0.637) (xy 1.262 -0.637)
+					)
+					(width 0.05)
+					(fill yes)
+				)
+			)
+			(uuid "c1cfd006-e1f2-42c8-8855-7bc25817d32d")
 		)
 		(pad "3" thru_hole circle
 			(at 1.38 -10.922)
@@ -2546,9 +2559,9 @@
 			(net 12 "Net-(U3-SET_9V)")
 			(pinfunction "SET_9V")
 			(pintype "output")
-			(uuid "50f2f7ec-8600-485d-bb63-16be1194a8cf")
+			(uuid "a4ad0322-e707-43e8-93d9-94b8740aa12f")
 		)
-		(pad "4" thru_hole rect
+		(pad "4" thru_hole custom
 			(at 0 -8.382)
 			(size 2.76 1.524)
 			(drill 0.9)
@@ -2557,17 +2570,20 @@
 			(net 13 "Net-(U3-SET_12V)")
 			(pinfunction "SET_12V")
 			(pintype "output")
-			(uuid "4d87614c-63ca-4dc8-a415-8b6b9d91f6c9")
-		)
-		(pad "4" smd trapezoid
-			(at 0.762 -7.491 180)
-			(size 0.5 0.5)
-			(rect_delta 0 0.5)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 13 "Net-(U3-SET_12V)")
-			(pinfunction "SET_12V")
-			(pintype "output")
-			(uuid "f191a53c-81f5-4064-b7bf-84d7ca112ba1")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.762 1.141) (xy 1.262 0.641) (xy 0.262 0.641)
+					)
+					(width 0.05)
+					(fill yes)
+				)
+			)
+			(uuid "04d6a4fd-9d7e-43da-9c8b-c201de61ca79")
 		)
 		(pad "4" thru_hole circle
 			(at 1.38 -8.382)
@@ -2578,9 +2594,9 @@
 			(net 13 "Net-(U3-SET_12V)")
 			(pinfunction "SET_12V")
 			(pintype "output")
-			(uuid "aaeeeb92-ed94-4a7a-bea5-f64415a2bad0")
+			(uuid "a0464323-994c-4ad0-853e-e922070866b7")
 		)
-		(pad "5" thru_hole rect
+		(pad "5" thru_hole custom
 			(at 0 -5.842)
 			(size 2.76 1.524)
 			(drill 0.9)
@@ -2589,27 +2605,27 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "e6f3c15b-cb6a-4b3f-8b51-d8298b1a58c3")
-		)
-		(pad "5" smd trapezoid
-			(at 0.762 -6.729)
-			(size 0.5 0.5)
-			(rect_delta 0 0.5)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "power_in")
-			(uuid "62f5bbb4-8a3f-46ba-b4ce-38e87dcca29f")
-		)
-		(pad "5" smd trapezoid
-			(at 0.762 -4.951 180)
-			(size 0.5 0.5)
-			(rect_delta 0 0.5)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "power_in")
-			(uuid "47666880-faee-47f1-9016-f7c810dea7fa")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.762 1.141) (xy 1.262 0.641) (xy 0.262 0.641)
+					)
+					(width 0.05)
+					(fill yes)
+				)
+				(gr_poly
+					(pts
+						(xy 0.762 -1.137) (xy 0.262 -0.637) (xy 1.262 -0.637)
+					)
+					(width 0.05)
+					(fill yes)
+				)
+			)
+			(uuid "9fe906ed-642c-4393-9ee3-e99b1e307758")
 		)
 		(pad "5" thru_hole circle
 			(at 1.38 -5.842)
@@ -2620,9 +2636,9 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "137aaf64-94b1-4957-a344-c6fed69d610b")
+			(uuid "6fc7b956-6852-43f1-8b74-39f2f843e7d7")
 		)
-		(pad "6" thru_hole rect
+		(pad "6" thru_hole custom
 			(at 0 -3.302)
 			(size 2.76 1.524)
 			(drill 0.9)
@@ -2631,17 +2647,20 @@
 			(net 14 "Net-(U3-SET_15V)")
 			(pinfunction "SET_15V")
 			(pintype "output")
-			(uuid "70459838-514b-403a-92b2-b618913f614e")
-		)
-		(pad "6" smd trapezoid
-			(at 0.762 -4.189)
-			(size 0.5 0.5)
-			(rect_delta 0 0.5)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 14 "Net-(U3-SET_15V)")
-			(pinfunction "SET_15V")
-			(pintype "output")
-			(uuid "c2f83300-a811-4b47-bdae-61869e07028f")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.762 -1.137) (xy 0.262 -0.637) (xy 1.262 -0.637)
+					)
+					(width 0.05)
+					(fill yes)
+				)
+			)
+			(uuid "9dfb7216-d328-45d8-b5a6-2fd51cd93790")
 		)
 		(pad "6" thru_hole circle
 			(at 1.38 -3.302)
@@ -2652,9 +2671,9 @@
 			(net 14 "Net-(U3-SET_15V)")
 			(pinfunction "SET_15V")
 			(pintype "output")
-			(uuid "d19d7f8a-974c-4cd5-8d8d-eb373c4777c4")
+			(uuid "d9888702-d9a2-45b4-a0eb-1843002f7971")
 		)
-		(pad "7" thru_hole rect
+		(pad "7" thru_hole custom
 			(at 0 -0.762)
 			(size 2.76 1.524)
 			(drill 0.9)
@@ -2663,17 +2682,20 @@
 			(net 15 "Net-(U3-SET_18V)")
 			(pinfunction "SET_18V")
 			(pintype "output")
-			(uuid "c0bcc8a1-c1ac-4a28-9582-42603fb9e0b1")
-		)
-		(pad "7" smd trapezoid
-			(at 0.762 0.129 180)
-			(size 0.5 0.5)
-			(rect_delta 0 0.5)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 15 "Net-(U3-SET_18V)")
-			(pinfunction "SET_18V")
-			(pintype "output")
-			(uuid "ee958e36-2480-41fa-a700-595ea5b7e40d")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.762 1.141) (xy 0.262 0.641) (xy 1.262 0.641)
+					)
+					(width 0.05)
+					(fill yes)
+				)
+			)
+			(uuid "844395b2-148e-4d1a-9799-7acf0e030494")
 		)
 		(pad "7" thru_hole circle
 			(at 1.38 -0.762)
@@ -2684,9 +2706,9 @@
 			(net 15 "Net-(U3-SET_18V)")
 			(pinfunction "SET_18V")
 			(pintype "output")
-			(uuid "fd563fe8-8481-4a00-a6ed-c8f365e2269b")
+			(uuid "b078dbc5-898d-47c9-8ced-b6f196b87aea")
 		)
-		(pad "8" thru_hole rect
+		(pad "8" thru_hole custom
 			(at 0 1.778)
 			(size 2.76 1.524)
 			(drill 0.9)
@@ -2695,27 +2717,27 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_out")
-			(uuid "16b681aa-a545-40fa-b9aa-4b316944815a")
-		)
-		(pad "8" smd trapezoid
-			(at 0.762 0.891)
-			(size 0.5 0.5)
-			(rect_delta 0 0.5)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "power_out")
-			(uuid "c1f22416-f639-4ff3-bc07-dca834fe3dda")
-		)
-		(pad "8" smd trapezoid
-			(at 0.762 2.669 180)
-			(size 0.5 0.5)
-			(rect_delta 0 0.5)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 1 "GND")
-			(pinfunction "GND")
-			(pintype "power_out")
-			(uuid "ecf5e2e1-5d23-470f-9938-aba780e04c81")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.762 1.141) (xy 1.262 0.641) (xy 0.262 0.641)
+					)
+					(width 0.05)
+					(fill yes)
+				)
+				(gr_poly
+					(pts
+						(xy 0.762 -1.137) (xy 0.262 -0.637) (xy 1.262 -0.637)
+					)
+					(width 0.05)
+					(fill yes)
+				)
+			)
+			(uuid "fce8cf36-14c6-4612-af72-a50a12055173")
 		)
 		(pad "8" thru_hole circle
 			(at 1.38 1.778)
@@ -2726,9 +2748,9 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_out")
-			(uuid "fc139308-3954-4034-b1c8-df5b5814c6b9")
+			(uuid "7664b59a-9810-46ac-8584-fb42c2f4d69b")
 		)
-		(pad "9" thru_hole rect
+		(pad "9" thru_hole custom
 			(at 0 4.32)
 			(size 2.76 1.524)
 			(drill 0.9)
@@ -2737,17 +2759,20 @@
 			(net 19 "unconnected-(U3-SET_20V-Pad9)")
 			(pinfunction "SET_20V")
 			(pintype "free")
-			(uuid "8ea87612-b368-42bf-8853-1d8885aac079")
-		)
-		(pad "9" smd trapezoid
-			(at 0.762 3.431)
-			(size 0.5 0.5)
-			(rect_delta 0 0.5)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 19 "unconnected-(U3-SET_20V-Pad9)")
-			(pinfunction "SET_20V")
-			(pintype "free")
-			(uuid "e0dcd4b8-cfec-4ae5-bb16-d569ad6c7fbe")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.762 -1.139) (xy 0.262 -0.639) (xy 1.262 -0.639)
+					)
+					(width 0.05)
+					(fill yes)
+				)
+			)
+			(uuid "a7f7bcfd-a719-4804-9144-a360ed33dd0d")
 		)
 		(pad "9" thru_hole circle
 			(at 1.38 4.32)
@@ -2758,7 +2783,7 @@
 			(net 19 "unconnected-(U3-SET_20V-Pad9)")
 			(pinfunction "SET_20V")
 			(pintype "free")
-			(uuid "19c67818-aab7-4799-a73c-788888ae5ceb")
+			(uuid "86d8a380-1f76-4780-b4ed-3e003df6f39d")
 		)
 		(pad "10" thru_hole circle
 			(at 16.62 4.318 180)
@@ -2769,7 +2794,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "54695359-1a00-46e1-bfd2-a9778590b4fa")
+			(uuid "1f2c8a68-ab6e-4080-b048-4a26d27c1cc5")
 		)
 		(pad "10" thru_hole rect
 			(at 18 4.318 180)
@@ -2780,7 +2805,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "24025f3b-556c-4f1b-9546-6fcca5c76e92")
+			(uuid "a1575045-14f3-469e-bf2b-fdbb7363c3dd")
 		)
 		(pad "11" thru_hole circle
 			(at 16.62 1.78 180)
@@ -2791,7 +2816,7 @@
 			(net 2 "VOUT")
 			(pinfunction "VOUT")
 			(pintype "power_in")
-			(uuid "bf027540-eac2-4948-b300-aed7f03860e4")
+			(uuid "196c6307-9cc9-4ef6-8dda-6d068747718a")
 		)
 		(pad "11" thru_hole rect
 			(at 18 1.78 180)
@@ -2802,7 +2827,7 @@
 			(net 2 "VOUT")
 			(pinfunction "VOUT")
 			(pintype "power_in")
-			(uuid "566d1b92-0ca7-4485-8f72-d72f44ce2da4")
+			(uuid "28596512-0a44-4a80-ab88-282347cb8d67")
 		)
 		(pad "12" thru_hole circle
 			(at 16.62 -0.76 180)
@@ -2812,7 +2837,7 @@
 			(remove_unused_layers no)
 			(net 20 "unconnected-(U3-Pad12)")
 			(pintype "free")
-			(uuid "1eb3164c-f5eb-429d-a056-9e33c4fb3121")
+			(uuid "76cbd0e3-67a9-47b2-ba0f-a702dd57ab50")
 		)
 		(pad "12" thru_hole rect
 			(at 18 -0.76 180)
@@ -2822,7 +2847,7 @@
 			(remove_unused_layers no)
 			(net 20 "unconnected-(U3-Pad12)")
 			(pintype "free")
-			(uuid "1a3a2a6a-2e25-4544-8c6c-e2f89c9d22d3")
+			(uuid "fb59346a-7db2-473c-a2c5-b5eef9d8bff2")
 		)
 		(pad "13" thru_hole circle
 			(at 16.62 -3.3 180)
@@ -2832,7 +2857,7 @@
 			(remove_unused_layers no)
 			(net 21 "unconnected-(U3-Pad13)")
 			(pintype "free")
-			(uuid "0520fb85-f64f-4065-9b6f-6122a145b733")
+			(uuid "02e564ca-2134-4b13-a542-7f9d1e6d2bdb")
 		)
 		(pad "13" thru_hole rect
 			(at 18 -3.3 180)
@@ -2842,7 +2867,7 @@
 			(remove_unused_layers no)
 			(net 21 "unconnected-(U3-Pad13)")
 			(pintype "free")
-			(uuid "581427af-1a96-4a25-9b84-1a60c187568b")
+			(uuid "bd7dbfcc-e558-4b91-8bcb-986580175214")
 		)
 		(pad "14" thru_hole circle
 			(at 16.62 -5.842 180)
@@ -2853,7 +2878,7 @@
 			(net 10 "SDA")
 			(pinfunction "SDA")
 			(pintype "bidirectional")
-			(uuid "4f56a816-abe8-4a2a-bc7f-c805e729605b")
+			(uuid "822c0f72-72a5-4a75-9c0c-cd27bd31b301")
 		)
 		(pad "14" thru_hole rect
 			(at 17.983 -5.842 180)
@@ -2864,7 +2889,7 @@
 			(net 10 "SDA")
 			(pinfunction "SDA")
 			(pintype "bidirectional")
-			(uuid "9faacf9d-6bf2-4c4c-8490-258fb07df20c")
+			(uuid "adcdd504-ba57-4a41-bc2d-ad4cc12efeeb")
 		)
 		(pad "15" thru_hole circle
 			(at 16.62 -8.38 180)
@@ -2875,7 +2900,7 @@
 			(net 9 "SCL")
 			(pinfunction "SCL")
 			(pintype "bidirectional")
-			(uuid "4b8010bc-db6c-41c0-8345-8311dcb34f7d")
+			(uuid "5fc3511c-09d2-4c51-9a47-a4755a82b571")
 		)
 		(pad "15" thru_hole rect
 			(at 17.983 -8.38 180)
@@ -2886,7 +2911,7 @@
 			(net 9 "SCL")
 			(pinfunction "SCL")
 			(pintype "bidirectional")
-			(uuid "4bcc3db5-5426-4836-aab0-bd3dea7d4bb8")
+			(uuid "bd969ac4-5ac0-4144-97ac-22f717b4f5f7")
 		)
 		(pad "16" thru_hole circle
 			(at 16.62 -10.92 180)
@@ -2897,7 +2922,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "9825d98b-e703-4efc-84dc-cbb4ca3a168b")
+			(uuid "229df805-9951-4420-80a7-2127215d133d")
 		)
 		(pad "16" thru_hole rect
 			(at 17.983 -10.92 180)
@@ -2908,7 +2933,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "4a5089e2-74fd-47c1-b5ed-daf29f4e2db0")
+			(uuid "177ae906-6c60-4f1a-8fdb-547bacf9a71a")
 		)
 		(pad "17" thru_hole circle
 			(at 16.62 -13.46 180)
@@ -2919,7 +2944,7 @@
 			(net 4 "D-")
 			(pinfunction "D-")
 			(pintype "bidirectional")
-			(uuid "6ad7fb3b-a327-4d32-82ff-3ea2a70cbc16")
+			(uuid "3b224501-e602-4ef6-aac2-95bd53e53ef9")
 		)
 		(pad "17" thru_hole rect
 			(at 17.983 -13.46 180)
@@ -2930,7 +2955,7 @@
 			(net 4 "D-")
 			(pinfunction "D-")
 			(pintype "bidirectional")
-			(uuid "8f94ee8c-e83e-4275-b252-4a9b5d969695")
+			(uuid "b14d8ee5-3ca3-424f-b59a-7d81ef6a0f7b")
 		)
 		(pad "18" thru_hole circle
 			(at 16.62 -16 180)
@@ -2941,7 +2966,7 @@
 			(net 3 "D+")
 			(pinfunction "D+")
 			(pintype "bidirectional")
-			(uuid "8cf3852d-7472-4a23-a080-93c31016fb5a")
+			(uuid "b6c217aa-cf89-468d-a2d3-d67ace9ee3d4")
 		)
 		(pad "18" thru_hole rect
 			(at 18 -16 180)
@@ -2952,81 +2977,79 @@
 			(net 3 "D+")
 			(pinfunction "D+")
 			(pintype "bidirectional")
-			(uuid "718699d3-e15f-4455-8dc5-4b4af5e25c27")
+			(uuid "57c95248-ddb5-43c5-bd51-457ede07a063")
 		)
 		(group ""
-			(uuid "c27cb322-685e-46b7-be11-d3d9414601a5")
-			(members "1341dd5c-1d86-47a8-a34c-c0c3fc3846d1" "b07d1aa1-c175-4109-b1ec-73032b53b6d5"
-				"e04b8b0d-0b24-43be-acac-9c0a7524ac1f"
-			)
+			(uuid "02983beb-8f4d-4dce-95fd-aafdc62d2742")
+			(members "5fc3511c-09d2-4c51-9a47-a4755a82b571" "bd969ac4-5ac0-4144-97ac-22f717b4f5f7")
 		)
 		(group ""
-			(uuid "0b6703f3-eb78-4781-9037-4be68e39a142")
-			(members "6ad7fb3b-a327-4d32-82ff-3ea2a70cbc16" "8f94ee8c-e83e-4275-b252-4a9b5d969695")
+			(uuid "0a6005bb-2278-4a36-9fbe-a854620b7b81")
+			(members "177ae906-6c60-4f1a-8fdb-547bacf9a71a" "229df805-9951-4420-80a7-2127215d133d")
 		)
 		(group ""
-			(uuid "0b6faca9-d7b8-483e-af0d-ed189ea00c5c")
-			(members "137aaf64-94b1-4957-a344-c6fed69d610b" "e6f3c15b-cb6a-4b3f-8b51-d8298b1a58c3")
+			(uuid "0f4abc2b-eab8-4907-ac67-ed463bed1f5a")
+			(members "844395b2-148e-4d1a-9799-7acf0e030494" "b078dbc5-898d-47c9-8ced-b6f196b87aea")
 		)
 		(group ""
-			(uuid "1926c0f4-ad9b-43f2-a9e7-ef10de039082")
-			(members "19c67818-aab7-4799-a73c-788888ae5ceb" "8ea87612-b368-42bf-8853-1d8885aac079")
+			(uuid "1fa1deda-14e2-4de1-9d42-25beb5b49765")
+			(members "15470450-13f2-4b57-92d2-cc19a7a601f5" "6c028b37-504c-47ef-be41-4613bb451eec")
 		)
 		(group ""
-			(uuid "194d7019-3f4a-4980-93d9-9931bcf16816")
-			(members "0520fb85-f64f-4065-9b6f-6122a145b733" "581427af-1a96-4a25-9b84-1a60c187568b")
+			(uuid "2e8f35b0-600d-49ef-bb1c-94186debf9cf")
+			(members "57c95248-ddb5-43c5-bd51-457ede07a063" "b6c217aa-cf89-468d-a2d3-d67ace9ee3d4")
 		)
 		(group ""
-			(uuid "1d52331d-58ad-4325-be3a-72a5d69c68f4")
-			(members "24025f3b-556c-4f1b-9546-6fcca5c76e92" "54695359-1a00-46e1-bfd2-a9778590b4fa")
+			(uuid "3479dda4-710b-48d3-9cba-7f6e04398556")
+			(members "02e564ca-2134-4b13-a542-7f9d1e6d2bdb" "bd7dbfcc-e558-4b91-8bcb-986580175214")
 		)
 		(group ""
-			(uuid "280beac6-d265-425c-91fe-bf0fed5a4dbc")
-			(members "4d87614c-63ca-4dc8-a415-8b6b9d91f6c9" "aaeeeb92-ed94-4a7a-bea5-f64415a2bad0")
+			(uuid "6eeab607-d063-4e86-8034-ffb4c5244dc8")
+			(members "86d8a380-1f76-4780-b4ed-3e003df6f39d" "a7f7bcfd-a719-4804-9144-a360ed33dd0d")
 		)
 		(group ""
-			(uuid "29148d71-713c-4696-9e38-51dd39116736")
-			(members "c0bcc8a1-c1ac-4a28-9582-42603fb9e0b1" "fd563fe8-8481-4a00-a6ed-c8f365e2269b")
+			(uuid "74277e03-2836-4968-ad66-22fdd1b9689e")
+			(members "196c6307-9cc9-4ef6-8dda-6d068747718a" "28596512-0a44-4a80-ab88-282347cb8d67")
 		)
 		(group ""
-			(uuid "51d90e6f-67b7-456e-b6ac-a3357782582b")
-			(members "566d1b92-0ca7-4485-8f72-d72f44ce2da4" "bf027540-eac2-4948-b300-aed7f03860e4")
+			(uuid "7639f696-45f1-450b-86d6-c3c6fef69453")
+			(members "76cbd0e3-67a9-47b2-ba0f-a702dd57ab50" "fb59346a-7db2-473c-a2c5-b5eef9d8bff2")
 		)
 		(group ""
-			(uuid "529fc124-bb0b-4d93-8c91-1673b0e7e9a4")
-			(members "70459838-514b-403a-92b2-b618913f614e" "d19d7f8a-974c-4cd5-8d8d-eb373c4777c4")
+			(uuid "776bb729-b731-4bba-89ec-72a152f92317")
+			(members "3b224501-e602-4ef6-aac2-95bd53e53ef9" "b14d8ee5-3ca3-424f-b59a-7d81ef6a0f7b")
 		)
 		(group ""
-			(uuid "563a174c-6c08-4c60-82d8-910e39e1c3e3")
-			(members "718699d3-e15f-4455-8dc5-4b4af5e25c27" "8cf3852d-7472-4a23-a080-93c31016fb5a")
+			(uuid "7f411175-904b-4a35-ab33-127039dc906f")
+			(members "6fc7b956-6852-43f1-8b74-39f2f843e7d7" "9fe906ed-642c-4393-9ee3-e99b1e307758")
 		)
 		(group ""
-			(uuid "6b63e0ce-8841-4f6b-9e7e-3f8e1d181fe9")
-			(members "8a57c9be-65fc-41a8-ae6b-f8bee69cd956" "bd91ff08-bd91-4765-9f2e-bc7766d7a33a")
+			(uuid "90babb09-f58a-4520-a98f-1934b4cb38c3")
+			(members "822c0f72-72a5-4a75-9c0c-cd27bd31b301" "adcdd504-ba57-4a41-bc2d-ad4cc12efeeb")
 		)
 		(group ""
-			(uuid "8c081f26-05f8-4db1-bc24-9f1a5f759502")
-			(members "4b8010bc-db6c-41c0-8345-8311dcb34f7d" "4bcc3db5-5426-4836-aab0-bd3dea7d4bb8")
+			(uuid "b278f938-4b52-4a0c-904d-bfaee431240b")
+			(members "9dfb7216-d328-45d8-b5a6-2fd51cd93790" "d9888702-d9a2-45b4-a0eb-1843002f7971")
 		)
 		(group ""
-			(uuid "90f3a168-22cd-46a3-8135-5f96b6458e9b")
-			(members "4f56a816-abe8-4a2a-bc7f-c805e729605b" "9faacf9d-6bf2-4c4c-8490-258fb07df20c")
+			(uuid "b83c6f87-4163-4099-992e-c248d7f7fb4c")
+			(members "1f2c8a68-ab6e-4080-b048-4a26d27c1cc5" "a1575045-14f3-469e-bf2b-fdbb7363c3dd")
 		)
 		(group ""
-			(uuid "91c1abf3-e3df-4d97-9108-ee925302da29")
-			(members "50f2f7ec-8600-485d-bb63-16be1194a8cf" "8826f3e2-32f9-4472-a7ba-4ee8f850167f")
+			(uuid "e0aee0e8-5d46-466f-a152-ce0e50962c28")
+			(members "a4ad0322-e707-43e8-93d9-94b8740aa12f" "c1cfd006-e1f2-42c8-8855-7bc25817d32d")
 		)
 		(group ""
-			(uuid "af0a7261-4d4f-45a4-b2b1-aee6c8007321")
-			(members "4a5089e2-74fd-47c1-b5ed-daf29f4e2db0" "9825d98b-e703-4efc-84dc-cbb4ca3a168b")
+			(uuid "f13b5c18-97e4-4473-ab9b-a0559a0cb080")
+			(members "7664b59a-9810-46ac-8584-fb42c2f4d69b" "fce8cf36-14c6-4612-af72-a50a12055173")
 		)
 		(group ""
-			(uuid "b08e4b68-7364-4700-ae1e-39034356b7bf")
-			(members "1a3a2a6a-2e25-4544-8c6c-e2f89c9d22d3" "1eb3164c-f5eb-429d-a056-9e33c4fb3121")
+			(uuid "f2d56522-a275-4981-b91b-bfd97ae85f5a")
+			(members "5c741146-55d0-495a-8213-e43618ce11ef" "72d034f0-9777-4b59-bde3-cfe88c61ff61")
 		)
 		(group ""
-			(uuid "dd40e460-512a-4e67-acb3-125d17279467")
-			(members "16b681aa-a545-40fa-b9aa-4b316944815a" "fc139308-3954-4034-b1c8-df5b5814c6b9")
+			(uuid "f3e93dc5-86f6-4ec0-ad9a-c3c9b5543bf1")
+			(members "04d6a4fd-9d7e-43da-9c8b-c201de61ca79" "a0464323-994c-4ad0-853e-e922070866b7")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
