@@ -4619,7 +4619,7 @@
 				)
 			)
 		)
-		(property "Value" "SI4459ADY-T1-GE3"
+		(property "Value" "SIR1309DP"
 			(at 228.6 25.4 90)
 			(effects
 				(font
@@ -4656,7 +4656,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C143743"
+		(property "LCSC" "C5919282"
 			(at 226.06 40.64 90)
 			(effects
 				(font
